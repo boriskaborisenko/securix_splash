@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,700,900');
+
+html, body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:#0B4B6F url('') center center no-repeat;
+    background-size:cover;
+    font-family:'Exo';
+    font-weight:700;
+}
+
+.home{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:2;
+    background:rgba(0,0,0,0.1);    
+}
+.main{
+    position:relative;
+    width:100%;
+    height:100%;
+    color:#fff;
+    font-size:2rem;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+  }
+  .logo svg{
+      width:180px;
+      height:auto;
+      margin:0 auto;
+  }
+
+  .logo__circle{
+      fill:#fff;
+  }
+
+  .title{
+      margin:10px 0 20px 0;
+  }
+
+  .text{
+      font-weight:400;
+      font-size:1.05rem;
+      line-height:1.5rem;
+      margin-bottom:100px;
+  }
+
+  .bottom-text{
+      position:absolute;
+      width:100%;
+      text-align: center;
+      bottom:30px;
+      font-size:1rem;
+      font-weight:300;
+      color:#fff;
+  }
+
+
+  @media screen and (min-width:320px) and (max-width:724px){
+    .middle{
+        width:86%;
+      } 
+      .logo svg{
+        width:100px;
+        height:auto;
+        margin:0 auto;
+    }
+      .text{
+        font-weight:400;
+        font-size:0.9rem;
+        line-height:1.3rem;
+        /*margin-bottom:70px;*/
+    }
+      #particles-js{
+          display:none;
+      } 
+  }

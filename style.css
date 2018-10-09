@@ -5,7 +5,7 @@ html, body{
     height:100%;
     margin:0;
     padding:0;
-    background:#0B4B6F url('') center center no-repeat;
+    background:#0B4B6F url('https://kingpassive.com/wp-content/uploads/2018/05/bitcoin-mining-700x350.jpg') center center no-repeat;
     background-size:cover;
     font-family:'Exo';
     font-weight:700;
@@ -18,7 +18,7 @@ html, body{
     top:0;
     left:0;
     z-index:2;
-    background:rgba(0,0,0,0.1);    
+    background:rgba(0,0,0,0.65);    
 }
 .main{
     position:relative;
